@@ -1,5 +1,4 @@
 % Problem #1
-
 % Ask the user for two numbers
 firstNumber = input('First number: ');
 secondNumber = input('Second number: ');
@@ -10,7 +9,6 @@ answer = firstNumber + secondNumber
 
 
 % Problem #2
-
 % Solve two equations using symbolic variables
 syms x y
 
@@ -23,8 +21,7 @@ solution = solve([eqn1, eqn2], [x, y]);
 
 
 
-% Problem 3
-
+% Problem #3
 % Get two numbers from the user
 num1 = input('First integer: ');
 num2 = input('Second integer: ');
@@ -50,7 +47,7 @@ end
 
 
 
-% Problem 4
+% Problem #4
 % Array
 randomNumbers = zeros(1, 10);
 for i = 1:10
